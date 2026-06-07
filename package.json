@@ -1,0 +1,20 @@
+{
+  "name": "arenalock-backend",
+  "version": "1.0.0",
+  "description": "High-Concurrency Ticket Reservation Engine",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0",
+    "redis": "^6.0.0",
+    "ws": "^8.18.0"
+  }
+}
+
